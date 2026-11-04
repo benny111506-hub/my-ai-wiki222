@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>LLM Wiki 知識庫架構 - LLM Wiki</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 2rem auto; padding: 0 1rem; color: #333; }
+        nav { margin-bottom: 2rem; }
+        a.back-btn { text-decoration: none; color: #4f46e5; font-weight: bold; }
+        h1 { color: #1e293b; border-bottom: 2px solid #4f46e5; padding-bottom: 0.5rem; }
+        .tag { background: #e0e7ff; color: #4338ca; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.85rem; }
+        .content { background: #f8fafc; padding: 1.5rem; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <nav><a href="../index.html" class="back-btn">← 返回知識庫首頁</a></nav>
+    <article>
+        <h1>LLM Wiki 知識庫架構</h1>
+        <span class="tag">Knowledge Management</span> <span class="tag">LLM Wiki</span>
+        <div class="content">
+            <p>LLM Wiki 是由 Andrej Karpathy 等人提倡的知識管理架構。透過 Agent 將散亂的原始筆記自動轉化為相互連結的原子化 Wiki 頁面。</p>
+            <h3>三大優勢：</h3>
+            <ul>
+                <li><strong>高可讀性與透明度</strong>：非純向量檢索，所有內容皆為可直觀閱讀與修改的文件。</li>
+                <li><strong>動態索引更新</strong>：新資料加入時，Agent 自動更新 `index.html` 導覽頁。</li>
+                <li><strong>人機協同管理</strong>：使用者（老闆）定義 SOP，AI Agent 負責自動化產出與維護。</li>
+            </ul>
+        </div>
+    </article>
+</body>
+</html>

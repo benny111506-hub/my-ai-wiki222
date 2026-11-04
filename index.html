@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生成式 AI 與 Agent 個人知識庫 (LLM Wiki)</title>
+    <style>
+        :root { --primary: #4f46e5; --bg: #f8fafc; --card-bg: #ffffff; --text: #1e293b; --text-muted: #64748b; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg); color: var(--text); margin: 0; padding: 2rem; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { margin-bottom: 2.5rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem; }
+        h1 { color: var(--primary); font-size: 2.25rem; margin-bottom: 0.5rem; }
+        p.subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        .wiki-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+        .card { background: var(--card-bg); border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border: 1px solid #e2e8f0; }
+        .card h2 { font-size: 1.25rem; margin-top: 0; color: var(--primary); }
+        .card p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.2rem; }
+        .card a { display: inline-block; background: var(--primary); color: white; text-decoration: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 500; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 AI & Agent 個人知識庫 (LLM Wiki)</h1>
+            <p class="subtitle">由 AI Agent 自動整理與維護的專案知識管理系統</p>
+        </header>
+
+        <main class="wiki-grid">
+            <div class="card">
+                <h2>1. 代理型 AI 與 Tool Use 原理</h2>
+                <p>探索 Agent 如何從僅能輸出的語言模型，演化為能操作檔案與工具的主動員工。</p>
+                <a href="wiki/01-ai-agent-intro.html">閱讀文章 →</a>
+            </div>
+
+            <div class="card">
+                <h2>2. LLM Wiki 知識庫構想</h2>
+                <p>介紹 Andrej Karpathy 提出的 LLM Wiki 概念，如何透過結構化文件實現人機協同知識管理。</p>
+                <a href="wiki/02-llm-wiki-concept.html">閱讀文章 →</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
